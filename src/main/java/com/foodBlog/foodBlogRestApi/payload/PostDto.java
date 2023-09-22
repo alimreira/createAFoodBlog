@@ -23,6 +23,6 @@ public class PostDto {
     private String description;
     @NotEmpty
     private String content;
-    private Set<CommentDto> commentSet = new HashSet<>();
+    private Set<CommentDto> comments = new HashSet<>();
 
 }
